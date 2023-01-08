@@ -55,6 +55,23 @@ body {
     top: 40px;
 }
 
+.Email_Submission p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+}
+
+.Email_Submission p2{
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+}
+
 .Sub-heading {
     text-align: center;
     text-decoration: underline;
@@ -65,6 +82,7 @@ body {
 img {
     border: 2px solid black;
     box-shadow: 0 0 60px black;
+    max-width: 100%;
 }
 
 .Lamp_NameAndBrand h2 {
@@ -83,6 +101,7 @@ img {
     text-align: center;
     width: 500px;
     margin: auto;
+    max-width: 100%;
 }
 
 .Lamp_Location a{
