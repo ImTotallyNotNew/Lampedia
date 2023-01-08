@@ -4,6 +4,7 @@ body {
     text-align: center;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 
 .topnav {
@@ -39,6 +40,16 @@ body {
     top: -20px;
 }
 
+.WorkinProgress p {
+    color: black;
+    border: 1px solid black;
+    background-color: #eed202;
+    width: 100%;
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+
 .Sub-heading {
     text-align: center;
     text-decoration: underline;
@@ -67,6 +78,14 @@ img {
     text-align: center;
     width: 500px;
     margin: auto;
+}
+
+.Lamp_Location a{
+    color: white;
+}
+
+.Lamp_Location a:hover{
+    font-size: 25px;
 }
 
 .SocialMediaTag a{
