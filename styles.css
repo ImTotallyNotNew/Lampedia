@@ -6,16 +6,43 @@ body {
     padding: 0px;
 }
 
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #181818;
+  }
+  
+  .topnav li {float: left;}
+  
+  .topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.topnav a:hover:not(.active) {background-color: #111;}
+.topnav a.active {background-color: #111;}
+  
+  @media screen and (max-width: 600px) {
+    .topnav li {float: left;}
+  }
+
 .Header {
     text-align: center;
     text-decoration: underline;
     font-size: 40px;
+    position:relative;
+    top: -20px;
 }
 
 .Sub-heading {
     text-align: center;
     text-decoration: underline;
-    font-size: 15px;
+    font-size: 25px;
     position:relative;
 }
 
@@ -38,14 +65,16 @@ img {
 .LampWinExplanation p {
     font-size: 20px;
     text-align: center;
+    width: 500px;
+    margin: auto;
 }
 
-a {
+.SocialMediaTag a{
     color: white;
 }
 
-a:hover {
-    font-size: 25px;
+.SocialMediaTag a:hover {
+    font-size: 30px;
 }
 
 .SuggestionsText h2 {
