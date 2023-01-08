@@ -104,3 +104,17 @@ img {
 hr.solid {
     border-top: 1px solid white;
   }
+
+.Lamp_About_Explanation p{
+    font-size: 20px;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+.Lamp_About_Origins p{
+    font-size: 20px;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
