@@ -13,6 +13,9 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #181818;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   
   .topnav li {float: left;}
@@ -48,6 +51,8 @@ body {
     font-size: 20px;
     text-decoration: underline;
     text-align: center;
+    position: relative;
+    top: 40px;
 }
 
 .Sub-heading {
