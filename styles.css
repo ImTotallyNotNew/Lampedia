@@ -16,18 +16,18 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-  }
+}
   
-  .topnav li {float: left;}
+.topnav li {float: left;}
   
-  .topnav li a {
+.topnav li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
+}
+
 .topnav a:hover:not(.active) {background-color: #111;}
 .topnav a.active {background-color: #111;}
   
