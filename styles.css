@@ -1,3 +1,4 @@
+/* The page */
 body {
     background-color: #181818;
     color: white;
@@ -6,20 +7,21 @@ body {
     padding: 0px;
     overflow-x: hidden;
 }
-
+/* Navigation Bar at top of screen */
 .topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #181818;
+    background-color: black;
     position: fixed;
     top: 0;
     width: 100%;
 }
-  
+/* Position of tabs in the navigation bar */
 .topnav li {float: left;}
   
+/* The tabs in the navigation bar */
 .topnav li a {
     display: block;
     color: white;
@@ -28,12 +30,15 @@ body {
     text-decoration: none;
 }
 
+/* Tab settings for being hovered on or selected with cursor */
 .topnav a:hover:not(.active) {background-color: #111;}
 .topnav a.active {background-color: #111;}
-  
+
+  /* Responsive navigation bar */
   @media screen and (max-width: 600px) {
     .topnav li {float: left;}
   }
+
 
 .Header {
     text-align: center;
@@ -52,7 +57,7 @@ body {
     text-decoration: underline;
     text-align: center;
     position: relative;
-    top: 40px;
+    top: 30px;
 }
 
 .Email_Submission p{
