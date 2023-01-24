@@ -9,16 +9,30 @@ awesome/4.7.0/css/font-awesome.min.css"/>
 
 <title>Lampedia - Lamp of the week</title>
 
-<ul class="topnav">
-    <li><a href="index.html">Lampedia</i></a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="#Week1">Week 1</a></li>
-    <li><a href="#Week2">Week 2</a></li>
-    <li><a href="#Week3">Week 3</a></li>
-    <li><a href="#Week4">Week 4</a></li>
-    <li><a href="#JoboSaurus">JoboSaurus</a></li>
-    <li><a href="#Rmlease">Rmlease</a></li>
-</ul>
+<div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Lampedia</a>
+    <a href="about.html">About</a>
+    <a href="#Week1">Week 1</a>
+    <a href="#Week2">Week 2</a>
+    <a href="#Week3">Week 3</a>
+    <a href="#Week4">Week 4</a>
+    <a href="#JoboSaurus">JoboSaurus</a>
+    <a href="#Rmlease">Rmlease</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+</script>
 
 <head>
 

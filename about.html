@@ -9,10 +9,24 @@ awesome/4.7.0/css/font-awesome.min.css"/>
 
 <title>Lampedia - About</title>
 
-<ul class="topnav">
-    <li><a href="index.html">Lampedia</i></a></li>
-    <li><a href="about.html">About</a></li>
-</ul>
+<div class="topnav" id="myTopnav">
+    <a href="index.html">Lampedia</a>
+    <a href="about.html" class="active">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 
 <div class="WorkinProgress">
     <p>Work in Progress! - Website is subject to change.</p>
